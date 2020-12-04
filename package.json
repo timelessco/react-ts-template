@@ -1,0 +1,29 @@
+{
+  "name": "react-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "React Typescript Project Boilerplate",
+  "scripts": {
+    "commit": "gacp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timelessco/react-ts-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "template",
+    "boilerplate",
+    "typescript",
+    "new-project",
+    "new-repo"
+  ],
+  "author": "Navin <navin@timeless.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timelessco/react-ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/timelessco/react-ts-boilerplate#readme",
+  "devDependencies": {
+    "gacp": "^2.10.2"
+  }
+}
