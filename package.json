@@ -1,16 +1,7 @@
 {
-  "name": "react-ts-boilerplate",
+  "name": "react-template",
   "version": "1.0.0",
-  "description": "React Typescript Project Boilerplate",
-  "scripts": {
-    "commit": "gacp",
-    "format": "prettier --write \"./**/*.{js,jsx,json}\"",
-    "lint": "eslint pages --ext .js --config ./.eslintrc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/timelessco/react-ts-boilerplate.git"
-  },
+  "description": "React Typescript Project template",
   "keywords": [
     "react",
     "template",
@@ -19,13 +10,29 @@
     "new-project",
     "new-repo"
   ],
-  "author": "Navin Moorthy <navin@timeless.co>",
-  "license": "MIT",
+  "homepage": "https://github.com/timelessco/react-template#readme",
   "bugs": {
-    "url": "https://github.com/timelessco/react-ts-boilerplate/issues"
+    "url": "https://github.com/timelessco/react-template/issues"
   },
-  "homepage": "https://github.com/timelessco/react-ts-boilerplate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timelessco/react-template.git"
+  },
+  "license": "MIT",
+  "author": "Navin Moorthy <navin@timeless.co>",
+  "scripts": {
+    "commit": "gacp",
+    "format": "prettier --write \"./**/*.{js,ts,css,less,json,md,html,yml,yaml,pcss,jsx,tsx}\"",
+    "lint": "eslint src --ext .tsx,.ts,.jsx,.js",
+    "lint:package": "sort-package-json"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
@@ -41,11 +48,10 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "gacp": "^2.10.2",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.2",
     "prettier": "^2.2.1",
+    "sort-package-json": "^1.48.0",
     "typescript": "^4.1.2"
-  },
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
   }
 }
