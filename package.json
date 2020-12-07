@@ -1,5 +1,5 @@
 {
-  "name": "react-template",
+  "name": "react-ts-template",
   "version": "1.0.0",
   "description": "React Typescript Project template",
   "keywords": [
@@ -11,11 +11,11 @@
     "new-repo"
   ],
   "bugs": {
-    "url": "https://github.com/timelessco/react-template/issues"
+    "url": "https://github.com/timelessco/react-ts-template/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timelessco/react-template.git"
+    "url": "git+https://github.com/timelessco/react-ts-template.git"
   },
   "license": "MIT",
   "author": "Navin Moorthy <navin@timeless.co>",

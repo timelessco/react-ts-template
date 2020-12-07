@@ -1,4 +1,4 @@
-# react-ts-boilerplate
+# React Typescript Template
 
 React Typescript Project Boilerplate
 
