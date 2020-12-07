@@ -32,10 +32,6 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-# gatsby files
-.cache/
-public
-
 # Storybook build
 storybook-static
 

@@ -10,7 +10,6 @@
     "new-project",
     "new-repo"
   ],
-  "homepage": "https://github.com/timelessco/react-template#readme",
   "bugs": {
     "url": "https://github.com/timelessco/react-template/issues"
   },
@@ -21,25 +20,54 @@
   "license": "MIT",
   "author": "Navin Moorthy <navin@timeless.co>",
   "scripts": {
+    "build": "react-scripts build",
     "commit": "gacp",
+    "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,ts,css,less,json,md,html,yml,yaml,pcss,jsx,tsx}\"",
     "lint": "eslint src --ext .tsx,.ts,.jsx,.js",
-    "lint:package": "sort-package-json"
+    "lint:package": "sort-package-json",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "dependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "web-vitals": "^1.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@testing-library/dom": "^7.28.1",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "@types/jest": "^26.0.16",
+    "@types/node": "^14.14.10",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
     "@typescript-eslint/parser": "^4.9.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.14.0",
-    "eslint-config-prettier": "^6.15.0",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-flowtype": "^5.2.0",
     "eslint-plugin-import": "^2.22.1",
@@ -49,8 +77,9 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "gacp": "^2.10.2",
     "husky": "^4.3.0",
-    "lint-staged": "^10.5.2",
+    "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
+    "react-scripts": "4.0.1",
     "sort-package-json": "^1.48.0",
     "typescript": "^4.1.2"
   }
