@@ -25,7 +25,8 @@
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,ts,css,less,json,md,html,yml,yaml,pcss,jsx,tsx}\"",
     "format:package": "sort-package-json",
-    "lint": "eslint src --ext .tsx,.ts,.jsx,.js",
+    "lint": "eslint . --ext .tsx,.ts,.jsx,.js",
+    "lint:fix": "eslint . --ext .tsx,.ts,.jsx,.js --fix",
     "start": "react-scripts start",
     "test": "react-scripts test"
   },
@@ -44,27 +45,27 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@testing-library/dom": "^7.28.1",
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.5.0",
-    "@types/jest": "^26.0.16",
-    "@types/node": "^14.14.10",
+    "@testing-library/dom": "^7.29.4",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.22",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "eslint-config-prettier": "^7.0.0",
-    "eslint-plugin-prettier": "^3.2.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "gacp": "^2.10.2",
-    "husky": "^4.3.0",
+    "husky": "^4.3.8",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
     "react-scripts": "4.0.1",
-    "sort-package-json": "^1.48.0",
-    "typescript": "^4.1.2"
+    "sort-package-json": "^1.48.1",
+    "typescript": "^4.1.3"
   }
 }
