@@ -6,14 +6,48 @@ React Typescript Project Boilerplate
 
 `yarn`
 
+## Local Development
+
+> Start the development server
+
+`yarn start`
+
+## Run Tests
+
+> Run all yours test files
+
+`yarn test`
+
+## Build
+
+> Build the site into `build` folder
+
+`yarn build`
+
 ## Eslint
 
-> Uses **Create React App** configs
+> Extend **react-app** configs & **react-app/jest** configs
+
+> Check for the linting errors
+
+`yarn lint`
+
+> Check & automatically fix the linting errors
+
+`yarn lint:fix`
 
 ## Prettier
 
-> Uses in conjuction with Eslint with `eslint-plugin-prettier` &
+> Used in conjuction with Eslint with `eslint-plugin-prettier` &
 > `eslint-config-prettier`
+
+> Format the workspace files
+
+`yarn format`
+
+> Format the `package.json` file
+
+`yarn format:package`
 
 ## Commit
 
